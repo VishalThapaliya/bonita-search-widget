@@ -1,0 +1,32 @@
+<div ng-if="environment">
+    <input type="text" class="search-input"/>
+    <span class="icon-container"><i class="glyphicon glyphicon-search"></i></span>
+</div>
+
+<style>
+    .search-input {
+        height: 35px;
+        border: 1px solid rgba(11,67,97,1);
+        border-radius: 35px;
+        color: rgba(11,67,97,1);
+        width: 100%;
+        background: #fff;
+    }
+    
+    .icon-container {
+        position: absolute;
+        right: 17px;
+        padding: 9px;
+        height: 35px;
+        width: 35px;
+        border: 1px solid rgba(11,67,97,1);
+        border-radius: 50%;
+        z-index: 1;
+        background: rgba(11,67,97,1);
+    }
+    
+    .icon-container .glyphicon {
+        font-size: 16px;
+        color: #fff;
+    }
+</style> 
