@@ -1,0 +1,54 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "searchApplication",
+  "name" : "searchApplication",
+  "lastUpdate" : 1599226417579,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          }
+        },
+        "reference" : "825aa9b7-0d91-4cb2-b245-3e16bcbebc8d",
+        "hasValidationError" : false,
+        "id" : "customSearchWidget"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e4556ad9-c3a2-414c-9559-cd05a8dea4bb",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "8034f157-2842-4212-bc72-f7f755d7876d",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
